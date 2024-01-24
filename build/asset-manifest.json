@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2b300111.css",
+    "main.js": "/static/js/main.6e1a3faf.js",
+    "static/media/Handcrafted Artistry.png": "/static/media/Handcrafted Artistry.01a9234ef59fb9e20212.png",
+    "index.html": "/index.html",
+    "main.2b300111.css.map": "/static/css/main.2b300111.css.map",
+    "main.6e1a3faf.js.map": "/static/js/main.6e1a3faf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b300111.css",
+    "static/js/main.6e1a3faf.js"
+  ]
+}

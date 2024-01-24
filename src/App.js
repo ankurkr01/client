@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
-
+// import DocViewer, { DocViewerRenderers } from "@cyntler/react-doc-viewer";
+import Banner from './pages/Banner';
+import Cards from './pages/Cards';
+import templates from "./data"
+// import File from './pages/File';
 function App() {
+  // const docs = [
+  //   {
+  //     uri: "https://calibre-ebook.com/downloads/demos/demo.docx",
+  //     fileType: "docx",
+  //     fileName: "demo.docx"
+
+  //   }, // Remote file
+    // { uri: require("") }, // Local File
+  // ];
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Banner />
+      <Cards templates={templates} />
+      {/* <DocViewer documents={docs} pluginRenderers={DocViewerRenderers}
+      style={{height:"700px"}} /> */}
+      {/* <Cards/> */}
+      {/* <File/> */}
     </div>
   );
 }
